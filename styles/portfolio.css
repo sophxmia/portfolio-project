@@ -83,16 +83,36 @@ footer a {
 .project-desciption {
   padding: 120px 60px;
 }
+.inquiry {
+  background-color: var(--secondary-color);
+  padding: 60px 60px;
+  border-radius: 10px;
+}
+.inquiry a {
+  font-size: 18px;
+  border-radius: 4px;
+  background: var(--branding-color);
+  color: var(--secondary-color);
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.inquiry a:hover {
+  color: var(--branding-color);
+  border-color: var(--branding-color);
+  background-color: var(--secondary-color);
+  cursor: pointer;
+  transition: ease-in-out 250ms;
+}
 @media (max-width: 900px) {
   h2 {
     font-size: 40px;
   }
   p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.7;
   }
-  footer {
-    font-size: 16px;
+  footer a {
+    font-size: 14px;
   }
   .hero a {
     font-size: 14px;
@@ -117,5 +137,8 @@ footer a {
   .project-desciption {
     padding: 0;
     text-align: center;
+  }
+  .inquiry a {
+    font-size: 14px;
   }
 }
