@@ -22,6 +22,11 @@ p {
   font-size: 16px;
   line-height: 1.7;
 }
+footer a {
+  color: #000;
+  text-decoration: none;
+  font-size: 24px;
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -61,7 +66,6 @@ p {
   font-size: 18px;
   color: var(--branding-color);
   border-color: var(--branding-color);
-  background-color: var(--secondary-color);
   border-radius: 4px;
   line-height: 27px;
   padding: 15px 30px;
@@ -86,6 +90,9 @@ p {
   p {
     font-size: 14px;
     line-height: 1.7;
+  }
+  footer {
+    font-size: 16px;
   }
   .hero a {
     font-size: 14px;
