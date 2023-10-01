@@ -47,7 +47,7 @@ footer a {
   line-height: 2;
   color: var(--default-font-color);
 }
-.hero a {
+.btn-styling-main {
   font-size: 18px;
   border-radius: 4px;
   background: var(--branding-color);
@@ -55,14 +55,25 @@ footer a {
   line-height: 27px;
   padding: 15px 30px;
 }
-.hero a:hover {
+.btn-styling-main:hover {
   color: var(--branding-color);
   border-color: var(--branding-color);
   background-color: var(--secondary-color);
   cursor: pointer;
   transition: ease-in-out 250ms;
 }
-.work-list a {
+.about-section {
+  padding: 120px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h3 {
+  font-family: var(--default-font-color);
+  font-size: 18px;
+}
+.btn-styling {
   font-size: 18px;
   color: var(--branding-color);
   border-color: var(--branding-color);
@@ -70,7 +81,7 @@ footer a {
   line-height: 27px;
   padding: 15px 30px;
 }
-.work-list a:hover {
+.btn-styling:hover {
   background: var(--branding-color);
   color: var(--secondary-color);
   cursor: pointer;
@@ -88,22 +99,10 @@ footer a {
   padding: 60px 60px;
   border-radius: 10px;
 }
-.inquiry a {
-  font-size: 18px;
-  border-radius: 4px;
-  background: var(--branding-color);
-  color: var(--secondary-color);
-  line-height: 27px;
-  padding: 15px 30px;
+.about-section-content {
+  margin: 30px;
 }
-.inquiry a:hover {
-  color: var(--branding-color);
-  border-color: var(--branding-color);
-  background-color: var(--secondary-color);
-  cursor: pointer;
-  transition: ease-in-out 250ms;
-}
-@media (max-width: 900px) {
+@media (max-width: 920px) {
   h2 {
     font-size: 40px;
   }
@@ -131,6 +130,10 @@ footer a {
   .hero {
     padding: 80px 20px;
   }
+  .about-section h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
   .work-list a {
     font-size: 14px;
   }
@@ -140,5 +143,9 @@ footer a {
   }
   .inquiry a {
     font-size: 14px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 50px 20px;
   }
 }
