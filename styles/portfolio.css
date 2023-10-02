@@ -62,14 +62,14 @@ footer a {
   cursor: pointer;
   transition: ease-in-out 250ms;
 }
-.about-section {
+.content-container {
   padding: 120px 20px;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-section h3 {
+.content-container h3 {
   font-family: var(--default-font-color);
   font-size: 18px;
 }
@@ -99,7 +99,7 @@ footer a {
   padding: 60px 60px;
   border-radius: 10px;
 }
-.about-section-content {
+.content {
   margin: 30px;
 }
 @media (max-width: 920px) {
@@ -130,7 +130,7 @@ footer a {
   .hero {
     padding: 80px 20px;
   }
-  .about-section h1 {
+  .content-container h1 {
     font-size: 40px;
     line-height: 50px;
   }
@@ -144,7 +144,7 @@ footer a {
   .inquiry a {
     font-size: 14px;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 50px 20px;
   }
