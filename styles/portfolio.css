@@ -102,6 +102,7 @@ footer a {
 .content {
   margin: 30px;
 }
+
 @media (max-width: 920px) {
   footer a {
     font-size: 14px;
