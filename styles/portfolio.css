@@ -123,13 +123,13 @@ footer a {
   .heading-main {
     padding: 80px 20px;
   }
-  .content-container h1 {
-    font-size: 40px;
-    line-height: 50px;
-  }
   .project-desciption {
     padding: 0;
     text-align: center;
+  }
+  .content-container h1 {
+    font-size: 40px;
+    line-height: 50px;
   }
   .content-container {
     text-align: center;
