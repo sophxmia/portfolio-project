@@ -133,6 +133,14 @@ footer .email-link:hover {
   padding-right: 20px;
   cursor: pointer;
 }
+.contact-me a {
+  text-decoration: none;
+  color: var(--default-font-color);
+}
+.contact-me a:hover {
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
 @media (max-width: 920px) {
   footer a {
     font-size: 14px;
