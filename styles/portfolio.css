@@ -104,6 +104,10 @@ footer .email-link:hover {
   cursor: pointer;
   transition: ease-in-out 250ms;
 }
+.btn-center {
+  display: flex;
+  justify-content: center;
+}
 .work-list .container h2 {
   font-size: 64px;
 }
