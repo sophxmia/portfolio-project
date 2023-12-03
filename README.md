@@ -1,2 +1,2 @@
 # portfolio-project
- Starting my very first portfolio as a Frent end developer
+ Starting my very first portfolio as a Frontend developer
