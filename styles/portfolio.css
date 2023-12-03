@@ -1,13 +1,26 @@
-:root {
+:root,
+html [data-theme="light"] {
   --branding-color: #6c63ff;
   --secondary-color: #f9f7fe;
-  --background-color: #f9f7fe;
+  --background-color: #f2f2f2;
+  --background-color-element: #f9f7fe;
+  --default-font-color: #272142;
+}
+/* :root,
+html [data-theme="dark"] {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --background-color: #141414;
+  --background-color-element: #363636;
+  --default-font-color: #f9f7fe;
+} */
+:root {
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
-  --default-font-color: #272142;
 }
 body {
   font-family: var(--default-font-family);
+  background-color: var(--background-color);
 }
 h1,
 h2,
@@ -15,10 +28,12 @@ h3,
 h4 {
   font-family: var(--heading-font-family);
   font-weight: bold;
+  color: var(--default-font-color);
 }
 p {
   font-size: 16px;
   line-height: 1.7;
+  color: var(--default-font-color);
 }
 nav a {
   text-decoration: none;
@@ -44,7 +59,7 @@ footer .email-link:hover {
 }
 .heading,
 .heading-main {
-  background-color: var(--background-color);
+  background-color: var(--background-color-element);
 }
 .heading-main {
   text-align: center;
@@ -58,12 +73,10 @@ footer .email-link:hover {
   font-family: var(--default-font-family);
   font-size: 36px;
   font-weight: bold;
-  color: var(--default-font-color);
 }
 .heading-main p {
   font-size: 24px;
   line-height: 2;
-  color: var(--default-font-color);
 }
 .btn-styling-main {
   font-size: 18px;
@@ -88,7 +101,6 @@ footer .email-link:hover {
   line-height: 80px;
 }
 .content-container h3 {
-  font-family: var(--default-font-color);
   font-size: 18px;
 }
 .btn-styling {
@@ -120,7 +132,7 @@ footer .email-link:hover {
   padding: 120px 60px;
 }
 .inquiry {
-  background-color: var(--background-color);
+  background-color: var(--background-color-element);
   padding: 60px 60px;
   border-radius: 10px;
 }
