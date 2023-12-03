@@ -21,6 +21,10 @@ html[data-theme="dark"] {
   --background-color-element: #363636;
   --default-font-color: #f9f7fe;
 }
+[data-theme="light"] .d-block-light,
+[data-theme="dark"] .d-block-dark {
+  display: block !important;
+}
 body {
   font-family: var(--default-font-family);
   background-color: var(--background-color);
