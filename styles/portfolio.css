@@ -141,6 +141,10 @@ footer .email-link:hover {
 .project-desciption {
   padding: 120px 60px;
 }
+.card {
+  color: var(--default-font-color);
+  background-color: var(--background-color-element);
+}
 .inquiry {
   background-color: var(--background-color-element);
   padding: 60px 60px;
