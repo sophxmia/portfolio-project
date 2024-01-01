@@ -227,6 +227,17 @@ footer .email-link:hover {
     text-align: right;
     padding: 10px 0;
   }
+  .btn-styling {
+    font-size: 14px;
+    padding: 5%;
+    width: 100%;
+  }
+  .inquiry {
+    padding: 10%;
+  }
+  .contact-me a {
+    font-size: 14px;
+  }
 }
 @media (max-width: 300px) {
   .heading-main h1 {
