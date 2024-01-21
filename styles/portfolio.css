@@ -144,6 +144,15 @@ footer .email-link:hover {
 .card {
   color: var(--default-font-color);
   background-color: var(--background-color-element);
+  padding: 5%;
+  margin: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 .inquiry {
   background-color: var(--background-color-element);
